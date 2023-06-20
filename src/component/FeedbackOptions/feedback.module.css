@@ -1,0 +1,17 @@
+.feedback-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.feedback-button {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: all 250ms;
+}
+
+.feedback-button:hover {
+  background-color: rgb(209, 208, 208);
+}
