@@ -1,6 +1,7 @@
 import Notification from "../Notifivation/Notification";
 
 function Statistics({ good, neutral, bad, total, positivePercentage }) {
+  console.log("eerr", positivePercentage);
   return total === 0 ? (
     <Notification message={"There is no feedback"}></Notification>
   ) : (

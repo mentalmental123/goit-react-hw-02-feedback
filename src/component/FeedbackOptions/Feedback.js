@@ -1,9 +1,6 @@
 import css from "./feedback.module.css";
 
-function FeedbackOptions({
-  options: { good, neutral, bad },
-  onClickIncrement,
-}) {
+function FeedbackOptions({ onClickIncrement }) {
   return (
     <div className={css["feedback-buttons"]}>
       <button onClick={onClickIncrement} className={css["feedback-button"]}>
